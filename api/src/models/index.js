@@ -1,5 +1,5 @@
-import BaseModel from "./BaseModel";
+import Tarefa from "./Tarefa";
 
 (async () => {
-  await BaseModel.sync({ force: true });
+  await Tarefa.sync({ force: true });
 })()
