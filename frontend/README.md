@@ -1,5 +1,7 @@
 # frontend
 
+dica: pode usar o Thunder Client para fazer requisiçoes assim como o postman e o insomnia, aqui mesmo no vscode
+
 ## Build Setup
 
 ```bash

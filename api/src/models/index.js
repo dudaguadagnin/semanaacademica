@@ -1,5 +1,5 @@
 import Tarefa from "./Tarefa";
 
 (async () => {
-  await Tarefa.sync({ force: true });
+  // await Tarefa.sync({ force: true });
 })()

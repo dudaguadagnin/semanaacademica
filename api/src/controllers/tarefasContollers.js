@@ -5,8 +5,14 @@ async function create (request, response) {
     let tarefa = await Tarefa.create({
         descricao
     })
-    responde.send(tarefa)
+    response.send(tarefa)
 } 
+async function get (request, response) {
+    let tarefas = await Tarefa.findAll()
+    response.send(tarefas)
+} 
+
 export default {
-    create
+    create,
+    get
 }
